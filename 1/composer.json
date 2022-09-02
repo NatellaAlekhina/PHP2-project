@@ -1,8 +1,9 @@
 {
-    "name": "geekbrains/php2",
+    "name": "natellaalekhina/php2-project",
+    "type": "project",
     "autoload": {
         "psr-4": {
-            "Geekbrains\\Php2\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [
@@ -10,5 +11,7 @@
             "name": "Natalia"
         }
     ],
-    "require": {}
+    "require": {
+        "fakerphp/faker": "^1.20"
+    }
 }
