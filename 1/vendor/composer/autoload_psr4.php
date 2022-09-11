@@ -6,5 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Geekbrains\\Php2\\' => array($baseDir . '/src'),
+    'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'Faker\\' => array($vendorDir . '/fakerphp/faker/src/Faker'),
+    'App\\' => array($baseDir . '/src'),
 );
